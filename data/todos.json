@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": "7b67b325-6f72-4638-a48d-a27b89a05ef6",
+      "text": "napravit jogurtacu",
+      "done": true,
+      "createdAt": "2024-04-22T19:42:09.984Z",
+      "updatedAt": "2024-04-24T13:41:23.875Z"
+    },
+    {
+      "id": "3265c6d1-91bb-4324-9492-c46c94b6d5f3",
+      "text": "iznesi smeće",
+      "done": false,
+      "createdAt": "2024-04-23T18:00:33.544Z",
+      "updatedAt": "2024-04-24T14:03:38.484Z"
+    },
+    {
+      "id": "b11d0edd-adf2-4619-9870-63f63b48febd",
+      "text": "operi",
+      "done": false,
+      "createdAt": "2024-04-23T18:37:59.565Z",
+      "updatedAt": "2024-04-24T14:43:33.295Z"
+    },
+    {
+      "id": "5b931039-1d7f-4bc9-b16b-a47b0f3322fa",
+      "text": "Test",
+      "done": true,
+      "createdAt": "2024-04-23T18:41:31.226Z",
+      "updatedAt": "2024-04-24T13:16:23.613Z"
+    }
+  ]
+}

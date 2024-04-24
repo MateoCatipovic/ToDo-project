@@ -1,0 +1,118 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+  padding: 20px;
+  width: 950px;
+}
+
+.App h1 {
+  margin-bottom: 30px;
+}
+
+.App button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+.App input {
+  margin: 10px;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
+
+.App label {
+  margin-left: 20px;
+}
+
+.input-div {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.input-add {
+  width: 360px;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+
+.input-single{
+  border-radius: 8px;
+  padding-left: 5px;
+}
+
+.custom-select {
+  width: 100px;
+  height: 25px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.answers-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.answers {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.answers:hover {
+  background-color: #f0f0f0;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.checkbox-div {
+  display: flex;
+  align-items: center;
+}
+
+.App .checkbox {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Add spacing between table cells */
+table {
+  border-collapse: separate;
+  border-spacing: 10px; /* Adjust spacing as needed */
+}
+
+/* Style for table cells */
+td,
+th {
+  padding: 8px; /* Add padding to cells */
+}
+
+table tr {
+  border-bottom: 1px solid rgba(36, 34, 34, 0.516);
+}
